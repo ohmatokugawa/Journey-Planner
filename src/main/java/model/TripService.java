@@ -1,14 +1,10 @@
 package model;
 
-import model.Trip;
-import model.TripRepository;
-import org.springframework.stereotype.Service;
-
 import java.time.LocalDate;
 import java.util.List;
 
 // Serwis do zarządzania podróżami
-@Service
+
 public class TripService {
     private final TripRepository tripRepository;
 

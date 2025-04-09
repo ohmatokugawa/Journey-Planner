@@ -6,6 +6,7 @@ import java.util.List;
 
 // Repozytorium do sortowania podróży
 public interface TripRepository extends JpaRepository <Trip, Long> {
+
     List<Trip> findByStartDateAferOrderByStartDateAsc (java.time.LocalDate date);
     List<Trip> findByEndDateBeforeOrderByEndDateDesc(java.time.LocalDate date);
 }
