@@ -4,7 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;
 
-// Repozytorium do sortowania podróży
+// Repozytorium do sortowania podróży po dacie dodania
+
 public interface TripRepository extends JpaRepository <Trip, Long> {
 
     List<Trip> findByStartDateAferOrderByStartDateAsc (java.time.LocalDate date);

@@ -1,3 +1,6 @@
+
+// Klasa do odpalania aplikacji. Pewnie masz taką samą albo podobną, więc do wyjebania.
+
 package model;
 
 import org.springframework.boot.SpringApplication;

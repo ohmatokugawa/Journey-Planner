@@ -3,7 +3,7 @@ package model;
 import java.time.LocalDate;
 import java.util.List;
 
-// Serwis do zarządzania podróżami
+// Serwis do zarządzania podróżami i komunikacją z bazą danych
 
 public class TripService {
     private final TripRepository tripRepository;
